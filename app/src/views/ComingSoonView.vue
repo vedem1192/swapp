@@ -1,16 +1,15 @@
 <script></script>
 
 <template>
-    <div class="main-area center-text" style="background-image:url(assets/countdown-3-1600x900.jpg);">
-		
+    <div class="main-area center-text" style="background-image:url(assets/pexels-gdtography-277628-911738.jpg);">
 		<div class="display-table">
 			<div class="display-table-cell">
 				
 				<h1 class="title font-white"><b>Hi! I'm Veronique</b></h1>
-				<p class="desc font-white">I am currently a sr. software engineer at IBM Research, in the MIT-IBM Watson AI Lab.</p>
+				<p class="desc font-white">I am currently a sr. software engineer at <a style="font-weight: 700;" href="https://research.ibm.com/people/veronique-demers" target="_blank">IBM Research</a>, in the MIT-IBM Watson AI Lab.</p>
 				<p class="desc font-white">On my day to day, I work on cool problems with the best people. 
                     I develop applications and systems that empower others to focus on their work, not on the noise. 
-                    I also work with reasearchers to create prototypes showing how research can be apply to industry.
+                    I also work with researchers to create prototypes showing how research can be apply to industry.
                 </p>
 				<p class="desc font-white">When I'm not working, I like beautiful buildings and rocky hillsides.</p>
 								
@@ -172,7 +171,15 @@ b.light-color{ color: #444; }
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; }
+.main-area{ 
+    position: relative; 
+    height: 100vh; 
+    z-index: 1; 
+    padding: 0 20px; 
+    background-size: cover; 
+    background-position: center top;
+    color: #fff; 
+}
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: .4; background: #000; }
